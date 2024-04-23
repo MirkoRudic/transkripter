@@ -6,7 +6,7 @@ api_key = os.environ['openai_api_key']
 
 client = OpenAI(api_key=api_key)
 
-st.title("Ludus AI Transkript App")
+st.title("AI Transkripter")
 
 audio_file = st.file_uploader("Dodajte audio fajl do 25MB", type=["mp3", "wav", "m4a", "mp4"])
 
